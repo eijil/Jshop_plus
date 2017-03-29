@@ -7,9 +7,9 @@
       "src/js/jquery.1.12.4.js",
       "src/js/jquery-ui.min.js",
       "semantic/dist/semantic.min.js",
-      "ace-builds/src-min/ace.js",
+      "dist/ace.js",
       "dist/emmet.js",
-      "ace-builds/dist/ace-all.js",
+      "dist/ace-all.js",
       "src/js/main.js"
     ],
     "css":[ "/semantic/dist/semantic.css", "src/css/main.css"],
