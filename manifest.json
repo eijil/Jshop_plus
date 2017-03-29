@@ -1,0 +1,22 @@
+{
+  "name": "jshop_plus",
+  "version": "1.0",
+  "description": "jshop_plus",
+  "content_scripts": [{
+    "js": [
+      "src/js/jquery.1.12.4.js",
+      "src/js/jquery-ui.min.js",
+      "semantic/dist/semantic.min.js",
+      "ace-builds/src-min/ace.js",
+      "dist/emmet.js",
+      "ace-builds/dist/ace-all.js",
+      "src/js/main.js"
+    ],
+    "css":[ "/semantic/dist/semantic.css", "src/css/main.css"],
+    "matches": ["http://jshop.jd.com/visualediting/visualEditing.html?*"],
+    "run_at": "document_end"
+  }],
+  "web_accessible_resources": ["semantic/*","ace-builds/*","snippets/*","src/*","dist/*","themes/*"],
+  "permissions": ["http://*/"],
+  "manifest_version": 2
+}
